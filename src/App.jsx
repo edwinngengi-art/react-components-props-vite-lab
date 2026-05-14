@@ -4,16 +4,16 @@ import About from "./components/About";
 import ArticleList from "./components/ArticleList";
 import blog from "./data/blog";
 
-const App = () => {
+function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="App">
       <Header name={blog.name} />
 
       <About about={blog.about} />
 
-      <ArticleList articles={blog.articles} />
+      <ArticleList posts={blog.posts} />
     </div>
   );
-};
+}
 
 export default App;

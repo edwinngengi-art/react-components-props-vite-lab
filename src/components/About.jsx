@@ -1,18 +1,18 @@
 import React from "react";
+import logo from "../images/logo.png";
 
 const About = ({ about }) => {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-8">
-      <div className="bg-white rounded-2xl shadow-md p-6">
-        <h2 className="text-2xl font-bold mb-4 text-blue-600">
-          About This Blog
-        </h2>
+    <aside>
+      <img
+        src={logo}
+        alt="blog logo"
+      />
 
-        <p className="text-gray-700 leading-relaxed">
-          {about}
-        </p>
-      </div>
-    </section>
+      <h2>About This Blog</h2>
+
+      <p>{about}</p>
+    </aside>
   );
 };
 
