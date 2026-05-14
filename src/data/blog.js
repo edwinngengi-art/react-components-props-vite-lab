@@ -1,27 +1,27 @@
 const blog = {
-  name: "Edwin's Tech Blog",
-  about:
-    "Welcome to my personal blog where I share my journey in web development, React projects, and technology tips.",
+  name: "React Blog",
+
+  image: "https://via.placeholder.com/215",
+
+  about: "This is a blog about React learning.",
+
   posts: [
     {
-      title: "Getting Started with React",
-      date: "May 14, 2026",
-      preview:
-        "React makes building user interfaces simple and fun using components.",
+      title: "Understanding Props",
+      date: "May 1, 2026",
+      preview: "Props allow data to flow between components."
     },
     {
-      title: "Why I Love Tailwind CSS",
-      date: "May 10, 2026",
-      preview:
-        "Tailwind CSS helps developers create modern designs faster and more efficiently.",
+      title: "React Components",
+      date: "May 3, 2026",
+      preview: "Components help build reusable UI."
     },
     {
-      title: "Understanding Props in React",
+      title: "Using JSX",
       date: "May 5, 2026",
-      preview:
-        "Props allow data to flow between components and make apps reusable.",
-    },
-  ],
+      preview: "JSX lets you write HTML inside JavaScript."
+    }
+  ]
 };
 
 export default blog;

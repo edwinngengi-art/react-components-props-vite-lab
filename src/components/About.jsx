@@ -1,13 +1,7 @@
-import React from "react";
-import logo from "../images/logo.png";
-
-const About = ({ about }) => {
+const About = ({ about, logo }) => {
   return (
     <aside>
-      <img
-        src={logo}
-        alt="blog logo"
-      />
+      <img src={logo} alt="blog logo" />
 
       <h2>About This Blog</h2>
 

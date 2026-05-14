@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import ArticleList from "./components/ArticleList";
@@ -9,7 +8,10 @@ function App() {
     <div className="App">
       <Header name={blog.name} />
 
-      <About about={blog.about} />
+      <About
+        about={blog.about}
+        logo={blog.image}
+      />
 
       <ArticleList posts={blog.posts} />
     </div>
